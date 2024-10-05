@@ -1,0 +1,115 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+}
+
+[data-theme="dark"] .navbar {
+    background-color: #00011d;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+} 
+
+.theme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    display: flex;
+    align-items: center;
+    padding-top: 0.55rem;
+}
+
+.icon {
+    padding-top: 1rem;
+}
+
+.navbar button {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1011F5;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar button::before,
+.navbar button::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    transition: width 0.3s ease, height 0.3s ease, border-color 0.1s ease;
+}
+
+.navbar button::before {
+    top: 0;
+    left: 0;
+    border-top: none;
+    border-left: none;
+}
+
+.navbar button::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: none;
+    border-right: none;
+}
+
+.navbar button:hover::before,
+.navbar button:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: #1011F5;
+}
+
+.navbar button:hover::before {
+    transition: width 0.3s ease 0.3s, height 0.3s ease;
+}
+
+.navbar button:hover::after {
+    transition: width 0.3s ease, height 0.3s ease 0.3s;
+}
+
+.navbar button:hover {
+    color: #0d0fb8;
+}
+
+.navbar button::before {
+    transition: width 0.3s ease, height 0.3s ease 0.3s, border-color 0.1s ease 0.6s;
+}
+
+.navbar button::after {
+    transition: width 0.3s ease 0.3s, height 0.3s ease, border-color 0.1s ease 0.6s;
+}
+
+.navbar button:not(:hover)::before,
+.navbar button:not(:hover)::after {
+    border-color: transparent;
+}
+
+/* Specific styles for button within the .theme div */
+.navbar .theme button {
+    transition: none;
+}
+
+.navbar .theme button::before,
+.navbar .theme button::after {
+    content: none;
+}
