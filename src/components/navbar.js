@@ -22,7 +22,7 @@ function Navbar() {
         <Stack direction="row" spacing={{ xs: 0, sm: 1}}>
 
           <a
-            href="https://www.github.com/laurens88"
+            href="https://www.instagram.com/nailsbycarlijn/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -31,7 +31,7 @@ function Navbar() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/laurens-debruin/"
+            href="https://www.tiktok.com/@nailsbycarlijn"
             target="_blank"
             rel="noopener noreferrer"
           >
