@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar.js";
 import NavDrawer from "../components/drawer.js";
 
-function About() {
+function Contact() {
   return (
     <div>
       <div className="desktop-nav">
@@ -21,12 +21,12 @@ function About() {
         Lakwerk in Amsterdam Oud Zuid en heb hier meerdere certificaten behaald;
         “Let’s own the gelbottle”, “Learn this BIAB” en “Unleash your inner
         artist”. Al mijn behandelingen kunt u vinden onder het kopje
-        “Behandelingen”. Bij vragen hoor ik dat graag en kunt u mij altijd een
+        “Prijslijst”. Bij vragen hoor ik dat graag en kunt u mij altijd een
         bericht via whatsapp sturen of e-mail. Hopelijk zie ik u snel bij een
-        afspraak! 💅🏻🩷
+        afspraak!
       </p>
     </div>
   );
 }
 
-export default About;
+export default Contact;

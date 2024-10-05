@@ -3,7 +3,8 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./screens/homePage.js";
 import Appointment from "./screens/appointmentPage.js";
 import Price from "./screens/pricePage.js";
-import About from "./screens/aboutPage.js";
+import Contact from "./screens/contactPage.js";
+import Portfolio from "./screens/portfolioPage.js";
 import './App.css';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/afspraakmaken" element={<Appointment />} />
           <Route path="/prijslijst" element={<Price />} />
-          <Route path="/overmij" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </Router>
     </div>
