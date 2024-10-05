@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #f8f9fa;
+    background-color: rgb(238, 233, 229);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -34,10 +34,10 @@
 }
 
 .navbar button {
-    font-family: "Roboto Mono", monospace;
+    font-family: 'PTSerif', sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #1011F5;
+    color: #a68500;
     position: relative;
     overflow: hidden;
     transition: color 0.3s ease;

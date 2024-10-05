@@ -29,7 +29,7 @@ const StyledDrawer = styled(Drawer)({
   "& .MuiDrawer-paper": {
     width: "100%",
     height: "100%",
-    backgroundColor: "#fff",
+    backgroundColor: "#eee9e5",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -49,8 +49,8 @@ const CloseButton = styled(IconButton)({
 const ListItemTextStyled = styled(ListItemText)(({ isActive }) => ({
   "& .MuiListItemText-primary": {
     fontSize: "2rem",
-    fontFamily: "Roboto Mono, monospace",
-    color: isActive ? "#1011F5" : "black",
+    fontFamily: "PTSerif, sans-serif",
+    color: isActive ? "#a68500" : "black",
   },
   textAlign: "left",
 }));
@@ -106,19 +106,19 @@ const NavDrawer = () => {
         <Toolbar>
           <IconContainer>
             <a
-              href="https://www.github.com/laurens88"
+              href="https://www.instagram.com/nails_by_carlijn"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram size={"1.35rem"} />
+              <FaInstagram style={{color: "#a68500"}} size={"1.35rem"} />
             </a>
 
             <a
-              href="https://www.linkedin.com/in/laurens-debruin/"
+              href="https://www.tiktok.com/@nails.by.carlijn"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTiktok size={"1.5rem"} />
+              <FaTiktok style={{color: "#a68500"}} size={"1.5rem"} />
             </a>
           </IconContainer>
           <StyledIconButton
@@ -127,7 +127,7 @@ const NavDrawer = () => {
             aria-label="menu"
             onClick={toggleDrawer}
           >
-            <StyledMenuIcon style={{ color: "black" }} />
+            <StyledMenuIcon style={{ color: "#a68500" }} />
           </StyledIconButton>
         </Toolbar>
       </StyledAppBar>
@@ -138,7 +138,7 @@ const NavDrawer = () => {
           aria-label="close"
           onClick={toggleDrawer}
         >
-          <CloseIcon style={{ color: "black" }} />
+          <CloseIcon style={{ color: "#a68500" }} />
         </CloseButton>
         <Box
           display="flex"
@@ -146,7 +146,7 @@ const NavDrawer = () => {
           alignItems="center"
           justifyContent="center"
           height="100%"
-          bgcolor={"#fff"}
+          bgcolor={"#eee9e5"}
         >
           <List>
             {["Home", "Afspraak maken", "Over mij"].map((item) => (

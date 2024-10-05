@@ -22,20 +22,20 @@ function Navbar() {
         <Stack direction="row" spacing={{ xs: 0, sm: 1}}>
 
           <a
-            href="https://www.instagram.com/nailsbycarlijn/"
+            href="https://www.instagram.com/nails_by_carlijn/"
             target="_blank"
             rel="noopener noreferrer"
           >
-          <FaInstagram size={"1.35rem"}/>
+          <FaInstagram style={{color: "#a68500"}} size={"1.35rem"}/>
 
           </a>
 
           <a
-            href="https://www.tiktok.com/@nailsbycarlijn"
+            href="https://www.tiktok.com/@nails.by.carlijn"
             target="_blank"
             rel="noopener noreferrer"
           >
-          <FaTiktok size={"1.5rem"}/>
+          <FaTiktok style={{color: "#a68500"}} size={"1.5rem"}/>
           </a>
 
         </Stack>
