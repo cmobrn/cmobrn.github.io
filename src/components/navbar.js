@@ -17,6 +17,7 @@ function Navbar() {
         <Stack direction="row" spacing={{ xs: 0, sm: 1, md: 6 }}>
           <Button onClick={() => navigate("/")}>Home</Button>
           <Button onClick={() => navigate("/afspraakmaken")}>Afspraak maken</Button>
+          <Button onClick={() => navigate("/prijslijst")}>Prijslijst</Button>
           <Button onClick={() => navigate("/overmij")}>Over mij</Button>
         </Stack>
         <Stack direction="row" spacing={{ xs: 0, sm: 1}}>
