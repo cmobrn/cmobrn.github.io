@@ -1,4 +1,18 @@
 @font-face {
+  font-family: 'NotoSerif';
+  src: url('./assets/fonts/NotoSerifDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerifBold';
+  src: url('./assets/fonts/NotoSerifDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'PTSerif';
   src: url('./assets/fonts/PTSerif-Regular.ttf') format('truetype');
   font-weight: normal;
@@ -64,5 +78,10 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  font-family: 'PTSerif', sans-serif;
+  font-family: 'NotoSerif', serif;
+  color: #A8815B;
+}
+
+strong, .bold-text {
+  font-family: 'NotoSerifBold', serif;
 }

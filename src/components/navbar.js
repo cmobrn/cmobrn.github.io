@@ -28,7 +28,7 @@ function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <FaInstagram style={{color: "#a68500"}} size={"1.35rem"}/>
+          <FaInstagram style={{color: "#A8815B"}} size={"1.35rem"}/>
 
           </a>
 
@@ -37,7 +37,7 @@ function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <FaTiktok style={{color: "#a68500"}} size={"1.5rem"}/>
+          <FaTiktok style={{color: "#A8815B"}} size={"1.5rem"}/>
           </a>
 
         </Stack>

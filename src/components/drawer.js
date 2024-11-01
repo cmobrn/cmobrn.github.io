@@ -49,8 +49,8 @@ const CloseButton = styled(IconButton)({
 const ListItemTextStyled = styled(ListItemText)(({ isActive }) => ({
   "& .MuiListItemText-primary": {
     fontSize: "2rem",
-    fontFamily: "PTSerif, sans-serif",
-    color: isActive ? "#a68500" : "black",
+    fontFamily: "NotoSerifBold, sans-serif",
+    color: isActive ? "#A8815B" : "black",
   },
   textAlign: "left",
 }));
@@ -115,7 +115,7 @@ const NavDrawer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram style={{color: "#a68500"}} size={"1.35rem"} />
+              <FaInstagram style={{color: "#A8815B"}} size={"1.35rem"} />
             </a>
 
             <a
@@ -123,7 +123,7 @@ const NavDrawer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTiktok style={{color: "#a68500"}} size={"1.5rem"} />
+              <FaTiktok style={{color: "#A8815B"}} size={"1.5rem"} />
             </a>
           </IconContainer>
           <StyledIconButton
