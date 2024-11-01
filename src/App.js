@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./screens/homePage.js";
 import Appointment from "./screens/appointmentPage.js";
@@ -8,6 +9,9 @@ import Portfolio from "./screens/portfolioPage.js";
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = "Nails by Carlijn";
+  }, []);
   return (
     <div className="App">
       <Router>
