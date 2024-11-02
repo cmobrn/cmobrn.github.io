@@ -47,22 +47,22 @@ function PricePage() {
         </div>
 
         <div className={styles.section}>
-          <h2 className={styles.sectionTitle}>Biab</h2>
+          <h2 className={styles.sectionTitle}>BIAB</h2>
           <hr className={styles.separator} />
           <div className={styles.item}>
-            <span>Biab (Incl. Manicure)</span>
+            <span>BIAB (Incl. Manicure)</span>
             <span>€40</span>
           </div>
           <div className={styles.item}>
-            <span>Biab Verwijderen</span>
+            <span>BIAB Verwijderen</span>
             <span>€15</span>
           </div>
           <div className={styles.item}>
-            <span>Biab Verwijderen & Aanbrengen (Incl. Manicure)</span>
+            <span>BIAB Verwijderen & Aanbrengen (Incl. Manicure)</span>
             <span>€55</span>
           </div>
           <div className={styles.item}>
-            <span>Biab Overlay (Incl. Manicure)</span>
+            <span>BIAB Overlay (Incl. Manicure)</span>
             <span>€40</span>
           </div>
           
