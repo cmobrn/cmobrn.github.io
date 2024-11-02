@@ -18,7 +18,7 @@ function Navbar() {
           <Button onClick={() => navigate("/afspraakmaken")}>Afspraak maken</Button>
           <Button onClick={() => navigate("/prijslijst")}>Prijslijst</Button>
           <Button onClick={() => navigate("/portfolio")}>Portfolio</Button>
-          <Button onClick={() => navigate("/contact")}>Contact</Button>
+          <Button onClick={() => navigate("/overmij")}>Over Mij</Button>
         </Stack>
         <Stack direction="row" spacing={{ xs: 0, sm: 1}}>
 

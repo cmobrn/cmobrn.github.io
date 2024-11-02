@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/navbar.js";
 import NavDrawer from "../components/drawer.js";
 import { ReactComponent as LargeLogo } from "../assets/logos/large_logo.svg";
+import styles from "../styles/appointmentPage.module.css";
 
 const procedures = [
   { id: 1, name: "Gellak (incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/gellak-incl-manicure?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
@@ -47,6 +48,7 @@ function AppointmentPage() {
       <div className="mobile-nav">
         <NavDrawer activeItems={["Home"]} />
       </div>
+      <div className={styles.appointmentPage}>
       <h1>Maak een afspraak!</h1>
 
       {/* Custom dropdown */}
@@ -118,6 +120,7 @@ function AppointmentPage() {
       {!dropdownOpen && !selectedProcedure &&
       <LargeLogo style={{width: "85%", paddingTop: "40%"}}/>
       }
+      </div>
     </div>
   );
 }

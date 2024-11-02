@@ -12,3 +12,8 @@ select {
       font-size: 14px; /* Match font size */
     }
   }
+
+.appointmentPage {
+  max-width: 800px; /* Set to 390px for mobile width */
+  margin: 0 auto;
+}

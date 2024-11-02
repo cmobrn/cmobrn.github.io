@@ -1,5 +1,7 @@
 import Navbar from "../components/navbar.js";
 import NavDrawer from "../components/drawer.js";
+import overmij from "../assets/images/overmij.jpg";
+import styles from "../styles/contactPage.module.css";
 
 function Contact() {
   return (
@@ -9,22 +11,24 @@ function Contact() {
         <div style={{ margin: "5rem" }}></div>
       </div>
       <div className="mobile-nav">
-        <NavDrawer activeItems={["Home"]} />
+        <NavDrawer activeItems={["Over Mij"]} />
       </div>
+      <div className={styles.aboutPage}>
       <h1>Over mij</h1>
       <p>
-        Ik ben Carlijn de Bruin en ik ben 21 jaar oud. Mijn salon is gevestigd
-        in de Groote Wielen, Rosmalen. Ik ben een super enthousiaste
-        nagelstyliste die mijn enthousiasme en passie graag wil delen met mijn
-        klanten. Het is namelijk altijd al mijn droom baan geweest en ik ben
-        heel trotst dat ik dit nu heb bereikt. Ik heb mijn cursussen gevolgd bij
-        Lakwerk in Amsterdam Oud Zuid en heb hier meerdere certificaten behaald;
-        “Let’s own the gelbottle”, “Learn this BIAB” en “Unleash your inner
-        artist”. Al mijn behandelingen kunt u vinden onder het kopje
-        “Prijslijst”. Bij vragen hoor ik dat graag en kunt u mij altijd een
-        bericht via whatsapp sturen of e-mail. Hopelijk zie ik u snel bij een
-        afspraak!
+      Welkom bij mijn website!
+
+Ik ben Carlijn de Bruin en ik heb sinds november 2024 mijn eigen bedrijf “Nails By Carlijn” geopend als nagelstyliste. 
+
+Ik ben hier erg trots op en ik zou graag mijn enthousiasme en passie voor gellak en BIAB met u delen. En u natuurlijk blij maken met mooie en verzorgde nagels. 
+
+Bij vragen kunt u mij altijd contacteren. 
+
+Hopelijk zie ik u snel bij uw afspraak met een kopje koffie of thee! 
+
       </p>
+    <img src={overmij} style={{width: "80%"}} alt="Nagels"/>
+    </div>
     </div>
   );
 }

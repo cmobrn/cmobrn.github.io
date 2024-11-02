@@ -12,6 +12,7 @@ function Portfolio() {
         <NavDrawer activeItems={["Home"]} />
       </div>
         <h1>Portfolio</h1>
+        <p>Coming soon...</p>
     </div>
   );
 }

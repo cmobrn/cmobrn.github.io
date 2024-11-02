@@ -83,8 +83,8 @@ const NavDrawer = () => {
       } else if (currentPath.includes("portfolio")) {
         setActiveItem("Portfolio");
         }
-        else if (currentPath.includes("contact")) {
-        setActiveItem("Contact");
+        else if (currentPath.includes("overmij")) {
+        setActiveItem("Over Mij");
         }
     };
 
@@ -150,7 +150,7 @@ const NavDrawer = () => {
           bgcolor={"#eee9e5"}
         >
           <List>
-            {["Home", "Afspraak maken", "Prijslijst", "Portfolio", "Contact"].map((item) => (
+            {["Home", "Afspraak maken", "Prijslijst", "Portfolio", "Over Mij"].map((item) => (
               <ListItem
                 button
                 component="a"

@@ -17,3 +17,7 @@
     /* This creates a soft fade-to-transparent effect on the edges */
   }
   
+.homepage {
+  max-width: 800px; /* Set to 390px for mobile width */
+  margin: 0 auto;
+}

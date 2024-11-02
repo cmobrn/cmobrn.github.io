@@ -20,9 +20,10 @@ function Home() {
       <div className="mobile-nav">
         <NavDrawer activeItems={["Home"]} />
       </div>
+      <div className={styles.homepage}>
       <LargeLogo/>
       <div className={styles.showcase}>
-        <img src={nails0} style={{width: '100%'}} alt="Nagels"/>
+        <img src={nails0} style={{width: '100%', paddingTop: '1rem'}} alt="Nagels"/>
       </div>
 
       <div className={styles.appointment}>
@@ -48,8 +49,8 @@ function Home() {
 
       <div className={styles.contact}>
         <h2><IoMdMail/><strong> Contact</strong></h2>
-        <p>Bel ons op +31655052201</p>
-        <p>Mail naar contact@nailsbycarlijn.nl</p>
+        <p>Bel of app mij op: +31655052201</p>
+        <p>Mail naar: contact@nailsbycarlijn.nl</p>
       </div>
 
       <div className={styles.address}>
@@ -58,6 +59,7 @@ function Home() {
         <p>5247KK Rosmalen</p>
       </div>
       <MapEmbed />
+      </div>
     </div>
   );
 }
