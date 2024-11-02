@@ -1,0 +1,15 @@
+select {
+    width: 100%; /* Make dropdown full width */
+    max-width: 100%; /* Ensure it doesn't exceed screen width */
+  }
+  
+  @media (max-width: 768px) {
+    select {
+      font-size: 14px; /* Adjust font size on smaller screens */
+    }
+    select option {
+      white-space: normal; /* Allow text wrapping in options */
+      font-size: 14px; /* Match font size */
+    }
+  }
+  
