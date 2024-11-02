@@ -3,6 +3,7 @@ import Navbar from "../components/navbar.js";
 import NavDrawer from "../components/drawer.js";
 import styles from "../styles/pricePage.module.css";
 import { ReactComponent as Logo } from "../assets/logos/logo.svg";
+import { ReactComponent as LargeLogo } from "../assets/logos/large_logo.svg";
 
 function PricePage() {
   return (
@@ -64,8 +65,9 @@ function PricePage() {
         </div>
         
         <footer className={styles.footer}>
-          <span>Nails By Carlijn</span>
-          <Logo />
+          <LargeLogo style={{paddingTop: "1rem"}}/>
+          {/* <span>Nails By Carlijn</span> */}
+          {/* <Logo style={{display: "flex", justifyContent: "center", alignItems:"center", width: "30%"}}/> */}
         </footer>
       </div>
     </div>

@@ -2,17 +2,18 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/navbar.js";
 import NavDrawer from "../components/drawer.js";
 import { ReactComponent as LargeLogo } from "../assets/logos/large_logo.svg";
+import styles from "../styles/appointmentPage.module.css";
 
 const procedures = [
-  { id: 1, name: "Gellak incl. Manicure", url: "https://calendly.com/contact-nailsbycarlijn/gellak-incl-manicure?primary_color=a8815b" },
-  { id: 2, name: "French Manicure", url: "https://calendly.com/contact-nailsbycarlijn/french-manicure?primary_color=a8815b" },
-  { id: 3, name: "Gellak Verwijderen & Aanbrengen (Incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/gellak-verwijderen-aanbrengen-incl-manicure?primary_color=a8815b" },
-  { id: 4, name: "Gellak Verwijderen", url: "https://calendly.com/contact-nailsbycarlijn/gellak-verwijderen?primary_color=a8815b" },
-  { id: 5, name: "Gellak Nailart", url: "https://calendly.com/contact-nailsbycarlijn/gellak-nailairt?primary_color=a8815b" },
-  { id: 6, name: "Biab (Incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/biab-incl-manicure?primary_color=a8815b" },
-  { id: 7, name: "Biab Verwijderen & Aanbrengen (Incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/biab-verwijderen-aanbrengen-incl-manicure?primary_color=a8815b" },
-  { id: 8, name: "Biab Overlay (Incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/biab-overlay-incl-manicure?primary_color=a8815b" },
-  { id: 9, name: "Biab Verwijderen", url: "https://calendly.com/contact-nailsbycarlijn/biab-verwijderen?primary_color=a8815b" },
+  { id: 1, name: "Gellak (incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/gellak-incl-manicure?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
+  { id: 2, name: "French Manicure", url: "https://calendly.com/contact-nailsbycarlijn/french-manicure?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
+  { id: 3, name: "Gellak Verwijderen & Aanbrengen (Incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/gellak-verwijderen-aanbrengen-incl-manicure?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
+  { id: 4, name: "Gellak Verwijderen", url: "https://calendly.com/contact-nailsbycarlijn/gellak-verwijderen?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
+  { id: 5, name: "Gellak Nailart", url: "https://calendly.com/contact-nailsbycarlijn/gellak-nailairt?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
+  { id: 6, name: "Biab (Incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/biab-incl-manicure?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
+  { id: 7, name: "Biab Verwijderen & Aanbrengen (Incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/biab-verwijderen-aanbrengen-incl-manicure?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
+  { id: 8, name: "Biab Overlay (Incl. Manicure)", url: "https://calendly.com/contact-nailsbycarlijn/biab-overlay-incl-manicure?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
+  { id: 9, name: "Biab Verwijderen", url: "https://calendly.com/contact-nailsbycarlijn/biab-verwijderen?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a8815b" },
 ];
 
 function AppointmentPage() {
@@ -110,10 +111,12 @@ function AppointmentPage() {
           key={selectedProcedure} // Key to force re-render
           className="calendly-inline-widget"
           data-url={procedures.find((proc) => proc.id === selectedProcedure).url}
-          style={{ minWidth: "320px", height: "700px", marginTop: "20px" }}
+          style={{ minWidth: "320px", height: "700px"}}
         ></div>
       )}
-      <LargeLogo style={{paddingTop: "30%"}}/>
+      {!dropdownOpen && !selectedProcedure &&
+      <LargeLogo style={{width: "85%", paddingTop: "40%"}}/>
+      }
     </div>
   );
 }
