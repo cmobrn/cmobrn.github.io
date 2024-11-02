@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/navbar.js";
 import NavDrawer from "../components/drawer.js";
 import styles from "../styles/pricePage.module.css";
-import { ReactComponent as Logo } from "../assets/logos/logo.svg";
 import { ReactComponent as LargeLogo } from "../assets/logos/large_logo.svg";
 
 function PricePage() {
@@ -15,7 +14,7 @@ function PricePage() {
       <div className="mobile-nav">
         <NavDrawer activeItems={["Home"]} />
       </div>
-      <h1 className={styles.title}>Prijs Lijst</h1>
+      <h1 className={styles.title}>Prijslijst</h1>
       
       <div className={styles.priceList}>
         <div className={styles.section}>
@@ -26,20 +25,24 @@ function PricePage() {
             <span>€30</span>
           </div>
           <div className={styles.item}>
-            <span>French Manicure</span>
-            <span>€40</span>
+            <span>Gellak Verwijderen</span>
+            <span>€10</span>
           </div>
           <div className={styles.item}>
             <span>Gellak Verwijderen & Aanbrengen (Incl. Manicure)</span>
             <span>€40</span>
           </div>
           <div className={styles.item}>
-            <span>Gellak Verwijderen</span>
-            <span>€10</span>
+            <span>Gellak met Nail Art (Incl. Manicure)</span>
+            <span>€40</span>
           </div>
           <div className={styles.item}>
-            <span>Gellak Nailart</span>
-            <span>€5<strong>-</strong>€15</span>
+            <span>Gellak Verwijderen & Aanbrengen met Nail Art</span>
+            <span>€50</span>
+          </div>
+          <div className={styles.item}>
+            <span>Gellak met French Manicure</span>
+            <span>€40</span>
           </div>
         </div>
 
@@ -51,6 +54,10 @@ function PricePage() {
             <span>€40</span>
           </div>
           <div className={styles.item}>
+            <span>Biab Verwijderen</span>
+            <span>€15</span>
+          </div>
+          <div className={styles.item}>
             <span>Biab Verwijderen & Aanbrengen (Incl. Manicure)</span>
             <span>€55</span>
           </div>
@@ -58,10 +65,7 @@ function PricePage() {
             <span>Biab Overlay (Incl. Manicure)</span>
             <span>€40</span>
           </div>
-          <div className={styles.item}>
-            <span>Biab Verwijderen</span>
-            <span>€15</span>
-          </div>
+          
         </div>
         
         <footer className={styles.footer}>
