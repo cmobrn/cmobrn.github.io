@@ -113,7 +113,7 @@ function AppointmentPage() {
           style={{ minWidth: "320px", height: "700px", marginTop: "20px" }}
         ></div>
       )}
-      <LargeLogo />
+      <LargeLogo style={{paddingTop: "30%"}}/>
     </div>
   );
 }

@@ -2,3 +2,18 @@
   text-align: left;
   padding-left: 1rem;
 }
+
+.address {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+
+.showcase {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    -webkit-mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    /* This creates a soft fade-to-transparent effect on the edges */
+  }
+  

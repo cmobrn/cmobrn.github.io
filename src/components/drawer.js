@@ -62,10 +62,6 @@ const IconContainer = styled(Box)({
   gap: "5px",
 });
 
-const IconLink = styled("a")({
-  marginRight: "10px",
-});
-
 const NavDrawer = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeItem, setActiveItem] = useState("Home");
