@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c9d44ea.css",
-    "main.js": "/static/js/main.e17713ee.js",
+    "main.css": "/static/css/main.a8e75ea9.css",
+    "main.js": "/static/js/main.c0113db7.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/NotoSerifDisplay-Bold.ttf": "/static/media/NotoSerifDisplay-Bold.90cbba224d39f6b1298e.ttf",
     "static/media/NotoSerifDisplay-Regular.ttf": "/static/media/NotoSerifDisplay-Regular.a0773c6c710408f40f2b.ttf",
     "static/media/nails0.jpg": "/static/media/nails0.8436e04f6db4e608314e.jpg",
     "static/media/PTSerif-Regular.ttf": "/static/media/PTSerif-Regular.6271ca9bf4c029802fc0.ttf",
+    "static/media/overmij.jpg": "/static/media/overmij.745ba9adb6f814843f56.jpg",
     "static/media/large_logo.svg": "/static/media/large_logo.f2b33dd6f04874eee3059f8de5f6b92a.svg",
-    "static/media/logo.svg": "/static/media/logo.458b96130b1cbcf1e34d0794cbeff648.svg",
     "index.html": "/index.html",
-    "main.9c9d44ea.css.map": "/static/css/main.9c9d44ea.css.map",
-    "main.e17713ee.js.map": "/static/js/main.e17713ee.js.map",
+    "main.a8e75ea9.css.map": "/static/css/main.a8e75ea9.css.map",
+    "main.c0113db7.js.map": "/static/js/main.c0113db7.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c9d44ea.css",
-    "static/js/main.e17713ee.js"
+    "static/css/main.a8e75ea9.css",
+    "static/js/main.c0113db7.js"
   ]
 }
