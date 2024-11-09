@@ -14,6 +14,6 @@ select {
   }
 
 .appointmentPage {
-  max-width: 800px; /* Set to 390px for mobile width */
+  max-width: 1000px; /* Set to 390px for mobile width */
   margin: 0 auto;
 }
